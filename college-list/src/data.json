@@ -1,0 +1,194 @@
+{
+    "colleges": [
+      {
+        "id": 1,
+        "qsRank": 1,
+        "name": "IIT Madras - Indian Institute of Technology - IITM, Chennai",
+        "logo": "/path/to/iit-madras-logo.png",
+        "courseFees": 2209550,
+        "placement": {
+          "average": 2100000,
+          "highest": 1900000
+        },
+        "userReview": 8.7,
+        "ranking": {
+          "overall": 1,
+          "year": 2023
+        },
+        "featured": true,
+        "jeeAdvancedCutoff": 144,
+        "collegeDuniaRating": 9.2
+      },
+      {
+        "id": 2,
+        "qsRank": 2,
+        "name": "IIT Delhi - Indian Institute of Technology (IITD), New Delhi",
+        "logo": "/path/to/iit-delhi-logo.png",
+        "courseFees": 248450,
+        "placement": {
+          "average": 2510000,
+          "highest": 4600000
+        },
+        "userReview": 8.7,
+        "ranking": {
+          "overall": 17,
+          "year": 2023
+        },
+        "featured": true,
+        "jeeAdvancedCutoff": 160,
+        "collegeDuniaRating": 9.1
+      },
+      {
+        "id": 3,
+        "qsRank": 3,
+        "name": "Anna University, Chennai",
+        "logo": "/path/to/anna-university-logo.png",
+        "courseFees": 147000,
+        "placement": {
+          "average": 400000,
+          "highest": 2300000
+        },
+        "userReview": 8.1,
+        "ranking": {
+          "overall": 9,
+          "year": 2022
+        },
+        "featured": true,
+        "jeeAdvancedCutoff": null,
+        "collegeDuniaRating": 8.5
+      },
+      {
+        "id": 4,
+        "qsRank": 4,
+        "name": "IIT Bombay - Indian Institute of Technology - IITB, Mumbai",
+        "logo": "/path/to/iit-bombay-logo.png",
+        "courseFees": 2217900,
+        "placement": {
+          "average": 1730000,
+          "highest": 3000000
+        },
+        "userReview": 8.8,
+        "ranking": {
+          "overall": 2,
+          "year": 2023
+        },
+        "featured": true,
+        "jeeAdvancedCutoff": 164,
+        "collegeDuniaRating": 9.3
+      },
+      {
+        "id": 5,
+        "qsRank": 5,
+        "name": "VIT Vellore - Vellore Institute of Technology",
+        "logo": "/path/to/vit-logo.png",
+        "courseFees": 350000,
+        "placement": {
+          "average": 600000,
+          "highest": 4500000
+        },
+        "userReview": 7.9,
+        "ranking": {
+          "overall": 12,
+          "year": 2023
+        },
+        "featured": false,
+        "jeeAdvancedCutoff": null,
+        "collegeDuniaRating": 8.7
+      },
+      {
+        "id": 6,
+        "qsRank": 6,
+        "name": "BITS Pilani - Birla Institute of Technology and Science",
+        "logo": "/path/to/bits-pilani-logo.png",
+        "courseFees": 475000,
+        "placement": {
+          "average": 1800000,
+          "highest": 5000000
+        },
+        "userReview": 8.5,
+        "ranking": {
+          "overall": 7,
+          "year": 2023
+        },
+        "featured": true,
+        "jeeAdvancedCutoff": null,
+        "collegeDuniaRating": 9.0
+      },
+      {
+        "id": 7,
+        "qsRank": 7,
+        "name": "NIT Trichy - National Institute of Technology, Tiruchirappalli",
+        "logo": "/path/to/nit-trichy-logo.png",
+        "courseFees": 180000,
+        "placement": {
+          "average": 900000,
+          "highest": 3500000
+        },
+        "userReview": 8.3,
+        "ranking": {
+          "overall": 15,
+          "year": 2023
+        },
+        "featured": false,
+        "jeeAdvancedCutoff": null,
+        "collegeDuniaRating": 8.8
+      },
+      {
+        "id": 8,
+        "qsRank": 8,
+        "name": "IISc Bangalore - Indian Institute of Science",
+        "logo": "/path/to/iisc-bangalore-logo.png",
+        "courseFees": 275000,
+        "placement": {
+          "average": 2800000,
+          "highest": 6000000
+        },
+        "userReview": 9.0,
+        "ranking": {
+          "overall": 3,
+          "year": 2023
+        },
+        "featured": true,
+        "jeeAdvancedCutoff": null,
+        "collegeDuniaRating": 9.5
+      },
+      {
+        "id": 9,
+        "qsRank": 9,
+        "name": "Manipal Institute of Technology",
+        "logo": "/path/to/manipal-logo.png",
+        "courseFees": 520000,
+        "placement": {
+          "average": 750000,
+          "highest": 4000000
+        },
+        "userReview": 7.8,
+        "ranking": {
+          "overall": 20,
+          "year": 2023
+        },
+        "featured": false,
+        "jeeAdvancedCutoff": null,
+        "collegeDuniaRating": 8.6
+      },
+      {
+        "id": 10,
+        "qsRank": 10,
+        "name": "SRM Institute of Science and Technology, Chennai",
+        "logo": "/path/to/srm-logo.png",
+        "courseFees": 310000,
+        "placement": {
+          "average": 550000,
+          "highest": 3800000
+        },
+        "userReview": 7.7,
+        "ranking": {
+          "overall": 25,
+          "year": 2023
+        },
+        "featured": false,
+        "jeeAdvancedCutoff": null,
+        "collegeDuniaRating": 8.4
+      }
+    ]
+  }
