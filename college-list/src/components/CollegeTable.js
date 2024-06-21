@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useCallback } from 'react';
+import { FaSortUp, FaSortDown, FaSort } from 'react-icons/fa';
 
 function CollegeTable({ colleges, onSort, sortConfig, onLoadMore }) {
   const observer = useRef();
@@ -26,27 +27,37 @@ function CollegeTable({ colleges, onSort, sortConfig, onLoadMore }) {
     return new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(amount);
   };
 
+  const getSortIcon = (columnName) => {
+    if (!sortConfig) {
+      return <FaSort />;
+    }
+    if (sortConfig.key === columnName) {
+      return sortConfig.direction === 'ascending' ? <FaSortUp /> : <FaSortDown />;
+    }
+    return <FaSort />;
+  };
+
   return (
-    <table className="min-w-full divide-y divide-gray-200">
+       <table className="min-w-full divide-y divide-gray-200">
       <thead className="bg-blue-100">
         <tr>
           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => onSort('qsRank')}>
-            QS INDIA
+            CD RANK {getSortIcon('qsRank')}
           </th>
           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => onSort('name')}>
-            COLLEGES
+            COLLEGES {getSortIcon('name')}
           </th>
           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => onSort('courseFees')}>
-            COURSE FEES
+            COURSE FEES {getSortIcon('courseFees')}
           </th>
           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => onSort('placement.average')}>
-            PLACEMENT
+            PLACEMENT {getSortIcon('placement.average')}
           </th>
           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => onSort('userReview')}>
-            USER REVIEWS
+            USER REVIEWS {getSortIcon('userReview')}
           </th>
           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => onSort('ranking.overall')}>
-            RANKING
+            RANKING {getSortIcon('ranking.overall')}
           </th>
         </tr>
       </thead>
