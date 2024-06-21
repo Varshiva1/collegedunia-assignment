@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useCallback } from 'react';
 import { FaSortUp, FaSortDown, FaSort } from 'react-icons/fa';
 
-function CollegeTable({ colleges, onSort, sortConfig, onLoadMore }) {
+const CollegeTable = ({ colleges, onSort, sortConfig, onLoadMore }) => {
   const observer = useRef();
   const lastCollegeRef = useCallback(node => {
     if (observer.current) observer.current.disconnect();
@@ -38,7 +38,7 @@ function CollegeTable({ colleges, onSort, sortConfig, onLoadMore }) {
   };
 
   return (
-       <table className="min-w-full divide-y divide-gray-200">
+    <table className="min-w-full divide-y divide-gray-200">
       <thead className="bg-blue-100">
         <tr>
           <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer" onClick={() => onSort('qsRank')}>

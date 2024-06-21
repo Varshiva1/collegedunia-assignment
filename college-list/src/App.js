@@ -3,7 +3,7 @@ import CollegeTable from './components/CollegeTable';
 import SearchBar from './components/SearchBar';
 import collegeData from './data.json';
 
-function App() {
+const App = () => {
   const [colleges, setColleges] = useState([]);
   const [displayedColleges, setDisplayedColleges] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -32,7 +32,7 @@ function App() {
       direction = 'descending';
     }
     setSortConfig({ key, direction });
-  
+
     const sortedColleges = [...displayedColleges].sort((a, b) => {
       let aValue = a;
       let bValue = b;
@@ -44,7 +44,7 @@ function App() {
       if (aValue > bValue) return direction === 'ascending' ? 1 : -1;
       return 0;
     });
-  
+
     setDisplayedColleges(sortedColleges);
   }, [displayedColleges, sortConfig]);
 
@@ -55,7 +55,7 @@ function App() {
     const newColleges = colleges.filter(college =>
       college.name.toLowerCase().includes(searchQuery.toLowerCase())
     ).slice(startIndex, endIndex);
-    
+
     setDisplayedColleges(prevColleges => [...prevColleges, ...newColleges]);
     setCurrentPage(nextPage);
   }, [colleges, currentPage, searchQuery]);
@@ -64,9 +64,9 @@ function App() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <h1 className="text-3xl font-bold text-gray-900 mb-6">College List</h1>
       <SearchBar onSearch={handleSearch} />
-      <CollegeTable 
-        colleges={displayedColleges} 
-        onSort={handleSort} 
+      <CollegeTable
+        colleges={displayedColleges}
+        onSort={handleSort}
         sortConfig={sortConfig}
         onLoadMore={loadMoreColleges}
       />
