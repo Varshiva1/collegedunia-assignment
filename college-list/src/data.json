@@ -1,10 +1,11 @@
+
 {
     "colleges": [
       {
         "id": 1,
         "qsRank": 1,
         "name": "IIT Madras - Indian Institute of Technology - IITM, Chennai",
-        "logo": "/path/to/iit-madras-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmUTGm9hnrMeARDggo9AvZ464peoekKRQHHh9179nR1Wtv",
         "courseFees": 2209550,
         "placement": {
           "average": 2100000,
@@ -23,7 +24,7 @@
         "id": 2,
         "qsRank": 2,
         "name": "IIT Delhi - Indian Institute of Technology (IITD), New Delhi",
-        "logo": "/path/to/iit-delhi-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmSxi9J8tp5bdmVpLsdec6u4UV5xBNayBhb2cEtMLAipHi",
         "courseFees": 248450,
         "placement": {
           "average": 2510000,
@@ -42,7 +43,7 @@
         "id": 3,
         "qsRank": 3,
         "name": "Anna University, Chennai",
-        "logo": "/path/to/anna-university-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmUh8VU3gDXWP491pYWTmLc6yPeNsEURWgPcwKWnoHyggt",
         "courseFees": 147000,
         "placement": {
           "average": 400000,
@@ -61,7 +62,7 @@
         "id": 4,
         "qsRank": 4,
         "name": "IIT Bombay - Indian Institute of Technology - IITB, Mumbai",
-        "logo": "/path/to/iit-bombay-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmekkYkVXNo2tm17mLXdMCLZXFi4EAysK1bUmu4zZfZWFA",
         "courseFees": 2217900,
         "placement": {
           "average": 1730000,
@@ -80,7 +81,7 @@
         "id": 5,
         "qsRank": 5,
         "name": "VIT Vellore - Vellore Institute of Technology",
-        "logo": "/path/to/vit-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmWu34oWfaMU1Hy4oR5b2G3CE91XwSRPthru34qpHvThk7",
         "courseFees": 350000,
         "placement": {
           "average": 600000,
@@ -99,7 +100,7 @@
         "id": 6,
         "qsRank": 6,
         "name": "BITS Pilani - Birla Institute of Technology and Science",
-        "logo": "/path/to/bits-pilani-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmY4jxQzoRRKDCg4t4StJFUqeJQRWvWbLuUhGKmmQWL2W5",
         "courseFees": 475000,
         "placement": {
           "average": 1800000,
@@ -118,7 +119,7 @@
         "id": 7,
         "qsRank": 7,
         "name": "NIT Trichy - National Institute of Technology, Tiruchirappalli",
-        "logo": "/path/to/nit-trichy-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmddZQUyX4qCraHQDXPKvA5RsuCftSfGUQEBvqRFa4E75i",
         "courseFees": 180000,
         "placement": {
           "average": 900000,
@@ -137,7 +138,7 @@
         "id": 8,
         "qsRank": 8,
         "name": "IISc Bangalore - Indian Institute of Science",
-        "logo": "/path/to/iisc-bangalore-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmRCW35FRyKdiMo1EM7A3cwKXqZrxj9UNUTJhxa93gDfsM",
         "courseFees": 275000,
         "placement": {
           "average": 2800000,
@@ -156,7 +157,7 @@
         "id": 9,
         "qsRank": 9,
         "name": "Manipal Institute of Technology",
-        "logo": "/path/to/manipal-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmZJnBL1noupDh9JUdXGccckaZHnrvVx5rVa8iZrZcVX7t",
         "courseFees": 520000,
         "placement": {
           "average": 750000,
@@ -175,7 +176,7 @@
         "id": 10,
         "qsRank": 10,
         "name": "SRM Institute of Science and Technology, Chennai",
-        "logo": "/path/to/srm-logo.png",
+        "logo": "https://magenta-only-clam-144.mypinata.cloud/ipfs/QmeXa6nXvrQffZBjZ2zfZihR3rjAvnXPyzqtFrdPM5q3sz",
         "courseFees": 310000,
         "placement": {
           "average": 550000,
