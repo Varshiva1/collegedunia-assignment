@@ -60,7 +60,14 @@ function CollegeTable({ colleges, onSort, sortConfig, onLoadMore }) {
               <div className="flex items-center">
                 <img className="h-10 w-10 rounded-full" src={college.logo} alt="" />
                 <div className="ml-4">
-                  <div className="text-sm font-medium text-gray-900">{college.name}</div>
+                  <div className="text-sm font-medium text-gray-900">
+                    {college.name}
+                    {college.featured && (
+                      <span className="ml-2 px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                        Featured
+                      </span>
+                    )}
+                  </div>
                   {college.jeeAdvancedCutoff && (
                     <div className="text-sm text-gray-500">JEE Advanced {new Date().getFullYear()} Cutoff: {college.jeeAdvancedCutoff}</div>
                   )}
